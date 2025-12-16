@@ -8,7 +8,7 @@ public class input {
         Scanner scan = new Scanner(System.in); // instancia de la clase scanner
         // existe en memoria
 
-        System.out.print("Ingresa tu nombre: ");
+        System.out.print("Ingresa tus nombres : ");
         String nombre = scan.nextLine();
 
         System.out.print("Ingresa tu edad: ");
