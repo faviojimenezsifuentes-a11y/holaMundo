@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Hello world");
         //Datos Primitivos
         //enteros
         byte edad2 = 127; // 1 byte -> 8bits = soporta hasta 127
