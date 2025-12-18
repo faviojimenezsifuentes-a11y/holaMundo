@@ -68,15 +68,17 @@ public class BasciArrays {
         }
 
         //Ejercicio 4
-        char[] vocales = {'p','r','o','g','r','a','m','a','c','i','o','n'};
+        char[] vocales = {'p','r','o','g','r','a','m','a','c','i','o','n','1'};
         int vocal = 0 ;
         int consonante = 0;
         for(int l = 0 ; l < vocales.length ; l++){
             char c = vocales[l];
-            if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'){
-                vocal++;
-            }else{
-                consonante++;
+            if(Character.isLetter(c)) {
+                if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+                    vocal++;
+                } else {
+                    consonante++;
+                }
             }
         }
         System.out.println("Hay: "+vocal+" vocales");
