@@ -24,13 +24,13 @@ public class Ejercicio1 {
         System.out.println("-------------------------------------");
         System.out.println("        REPORTE ACADEMICO");
         System.out.println("-------------------------------------");
-        System.out.println("Nombre : " + nombre);
-        System.out.println("Edad   : " + edad);
+        System.out.println("Nombres : " + nombre);
+        System.out.println("Edades   : " + edad);
         System.out.println("Promedio final : " + promedio);
         String estado = (promedio >= 11) ? "Aprobado" : "Desaprobado";
         System.out.println("Estado         : " + estado);
         String comentario = " ";
-        comentario += (edad < 18) ? "Alumno menor de edad, se recomienda acompañamiento. ": "";
+        comentario += (edad < 18) ? "El alumno es menor de edad, se recomienda acompañamiento. ": "";
         comentario += (promedio >= 11)? "¡Felicitaciones!": "Debe reforzar sus estudios.";
         comentario += (promedio >= 10 && promedio < 11)? " El alumno está a 1 punto o menos de aprobar.": "";
         comentario += (promedio <= 5)? " Rendimiento crítico.": "";
