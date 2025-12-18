@@ -13,6 +13,7 @@ public class BucleDoWhile {
 
         // Menu simple
         //int opcion;
+        //int opciones tambien puede ser;
         //do{
            // System.out.println("1.Saludar");
            // System.out.println("0.Salir");
