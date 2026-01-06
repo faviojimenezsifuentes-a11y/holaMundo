@@ -26,6 +26,12 @@ public class Prueba {
         System.out.println(alumno1.getNota());
 
         System.out.println(alumno1.toString());
+        //Abstraccion y polimorfismo
+        Animal animal;
+        animal = new Perro();
+        animal.hacerSonido();
 
+        animal=new Gato();
+        animal.hacerSonido();
     }
 }
