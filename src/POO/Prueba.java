@@ -33,5 +33,16 @@ public class Prueba {
 
         animal=new Gato();
         animal.hacerSonido();
+
+        //Herencia
+        System.out.println("-------------------------------------");
+        Estudiante estudiante1 = new Estudiante();
+        estudiante1.setNombre("Favio");
+        estudiante1.setEdad(20);
+        estudiante1.setNota(20);
+
+        estudiante1.mostrarDatos();
+        System.out.println("Nota: "+estudiante1.getNota());
+
     }
 }
